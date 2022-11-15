@@ -8,9 +8,11 @@ int main() {
    
    float result;
    if (x<0 && y> 0){
-      result = a*x – b*y;}
+      result = a*x -b*y;
+   }
    else if (x>= 0 && y<=0) {
-      result = a*(x*x) – b*y;}
+      result = a*( x*x) - b*y;
+   }
    else {
       result = a*x + b*(y*y);
 
